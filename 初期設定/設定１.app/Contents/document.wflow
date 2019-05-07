@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.39</string>
+	<string>444.42</string>
 	<key>AMApplicationVersion</key>
 	<string>2.9</string>
 	<key>AMDocumentVersion</key>
@@ -177,7 +177,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:266.000000</string>
+				<string>579.000000:266.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -356,7 +356,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:447.000000</string>
+				<string>579.000000:447.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -466,7 +466,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:552.000000</string>
+				<string>579.000000:552.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -539,13 +539,14 @@
 					<string></string>
 					<key>message</key>
 					<string>新規の編集者登録
-https://github.com/manimigue/mu-app/settings/collaboration
+https://github.com/manimigue/musicart/settings/collaboration
 
-管理者　三石ミゲール</string>
+管理者　三石ミゲール
+</string>
 					<key>messageRTFData</key>
 					<data>
 					e1xydGYxXGFuc2lcYW5zaWNwZzkzMlxjb2Nv
-					YXJ0ZjE2NzFcY29jb2FzdWJydGYyMDAKe1xm
+					YXJ0ZjE2NzFcY29jb2FzdWJydGY0MDAKe1xm
 					b250dGJsXGYwXGZuaWxcZmNoYXJzZXQxMjgg
 					SGlyYWdpbm9TYW5zLVczO1xmMVxmc3dpc3Nc
 					ZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29s
@@ -559,12 +560,12 @@ https://github.com/manimigue/mu-app/settings/collaboration
 					Y2YwIFwnOTBcJzU2XCc4YlwnNGJcJzgyXCdj
 					Y1wnOTVcJ2QyXCc4ZlwnNTdcJzhlXCdkMlwn
 					OTNcJzZmXCc5OFwnNWUKXGYxIFwKaHR0cHM6
-					Ly9naXRodWIuY29tL21hbmltaWd1ZS9tdS1h
-					cHAvc2V0dGluZ3MvY29sbGFib3JhdGlvblwK
-					XAoKXGYwIFwnOGFcJ2M3XCc5N1wnOWRcJzhl
-					XCdkMlwnODFcJzQwXCc4ZVwnNGZcJzkwXCdj
-					ZVwnODNcJzdlXCc4M1wnNTFcJzgxXCc1Ylwn
-					ODNcJzhifQ==
+					Ly9naXRodWIuY29tL21hbmltaWd1ZS9tdXNp
+					Y2FydC9zZXR0aW5ncy9jb2xsYWJvcmF0aW9u
+					XApcCgpcZjAgXCc4YVwnYzdcJzk3XCc5ZFwn
+					OGVcJ2QyXCc4MVwnNDBcJzhlXCc0ZlwnOTBc
+					J2NlXCc4M1wnN2VcJzgzXCc1MVwnODFcJzVi
+					XCc4M1wnOGJcCn0=
 					</data>
 					<key>subject</key>
 					<string>Musicart新規:$(1D4E4FA3-8087-4C7C-8325-77B942BB648F)</string>
@@ -694,7 +695,7 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:839.000000</string>
+				<string>579.000000:839.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Mail Message.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -867,7 +868,7 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1035.000000</string>
+				<string>579.000000:1035.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1046,7 +1047,7 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1216.000000</string>
+				<string>579.000000:1216.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1156,7 +1157,296 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1321.000000</string>
+				<string>579.000000:1321.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+					<string>テキストエディット</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<dict/>
+					<key>buttonNegative</key>
+					<dict/>
+					<key>defaultAnswer</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
+					<key>defaultMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>このMacのパスワードを入力してください</string>
+						</array>
+					</dict>
+					<key>requireInput</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Text.action</string>
+				<key>ActionName</key>
+				<string>テキストの入力を求める</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<string>OK</string>
+					<key>buttonNegative</key>
+					<string>キャンセル</string>
+					<key>defaultAnswer</key>
+					<string></string>
+					<key>defaultMessage</key>
+					<string>このMacのパスワードを入力してください</string>
+					<key>requireInput</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.TextInputDialog</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForTextAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>B08F5425-F893-4BB7-BF5D-B129E9FFF5F4</string>
+				<key>Keywords</key>
+				<array>
+					<string>テキスト</string>
+					<string>確認</string>
+					<string>プロンプト</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>60C23639-905E-42EB-8BE0-207E8065CA93</string>
+				<key>UUID</key>
+				<string>7498153D-4E8D-4408-9C3F-64F6B0E236B2</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultAnswer</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>buttonAffirmative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>キャンセル</string>
+						<key>name</key>
+						<string>buttonNegative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>requireInput</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:1502.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>67F1DE63-7EEB-4F87-AE49-213E2D38C0FC</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>変数の値を設定</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>67F1DE63-7EEB-4F87-AE49-213E2D38C0FC</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Set_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>AD99490B-17ED-4036-AD9F-A8FE6D2107F2</string>
+				<key>Keywords</key>
+				<array>
+					<string>変数</string>
+					<string>バインド</string>
+					<string>入力</string>
+					<string>出力</string>
+					<string>記憶装置</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>2AFE4E39-1B76-43CA-B427-3FE415D9B7F0</string>
+				<key>UUID</key>
+				<string>A2C9CDED-AE82-48AD-AB76-F710EDA682FB</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:1607.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1268,7 +1558,7 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1423.000000</string>
+				<string>579.000000:1709.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1378,7 +1668,117 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1525.000000</string>
+				<string>579.000000:1811.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>67F1DE63-7EEB-4F87-AE49-213E2D38C0FC</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>変数の値を取得</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>67F1DE63-7EEB-4F87-AE49-213E2D38C0FC</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Get_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>BEBC1C55-F7E0-4C06-9B2A-442821E19157</string>
+				<key>Keywords</key>
+				<array>
+					<string>変数</string>
+					<string>バインド</string>
+					<string>入力</string>
+					<string>出力</string>
+					<string>記憶装置</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>9E88D4F9-7448-4726-A67F-F22611A18F48</string>
+				<key>UUID</key>
+				<string>A403C219-98FD-4FDE-84CB-99A7AC67CE59</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:1913.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1434,22 +1834,31 @@ https://github.com/manimigue/mu-app/settings/collaboration
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>export PATH=/usr/local/bin:$PATH
+					<string>source ~/.bashrc
+export PATH=/usr/local/bin:$PATH
 
 mail=$1
 ghUser=$2
+macPass=$3
 
 xcode-select --install
 
-command -v brew &gt;/dev/null 2&gt;&amp;1 || { /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
+echo $macPass | sudo -S test
+
+command -v brew &gt;/dev/null 2&gt;&amp;1 || { echo -ne '\n' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
 
 brew install jq
 
 mkdir -p ~/.nodebrew/src
 brew install nodebrew
+nodebrew setup
 nodebrew install-binary v11.9.0
 nodebrew use  v11.9.0
-echo 'export PATH=$PATH:~/.nodebrew/current/bin' &gt;&gt; ~/.bashrc
+echo 'export PATH=$PATH:~/.nodebrew/current/bin:/usr/local/bin' &gt;&gt; ~/.bashrc
+
+source ~/.bashrc
+
+npm install -g folder-module
 
 git config --global user.name "$ghUser"
 git config --global user.email "$mail"</string>
@@ -1476,6 +1885,8 @@ git config --global user.email "$mail"</string>
 				</array>
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
+				<key>IgnoresInput</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>AF1C93DF-A54B-493E-B488-693815D3872A</string>
 				<key>Keywords</key>
@@ -1565,7 +1976,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1707.000000</string>
+				<string>579.000000:2095.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1739,7 +2150,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:1903.000000</string>
+				<string>579.000000:2291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1918,7 +2329,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2084.000000</string>
+				<string>579.000000:2472.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2028,7 +2439,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2189.000000</string>
+				<string>579.000000:2577.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2140,7 +2551,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2291.000000</string>
+				<string>579.000000:2679.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2250,7 +2661,7 @@ git config --global user.email "$mail"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2393.000000</string>
+				<string>579.000000:2781.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2306,7 +2717,7 @@ git config --global user.email "$mail"</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>export PATH=/usr/local/bin:$PATH
+					<string>source ~/.bashrc
 
 mail=$1
 password=$2
@@ -2435,7 +2846,7 @@ pbcopy &lt; ~/.ssh/id_ecdsa_github.pub</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2575.000000</string>
+				<string>579.000000:2963.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2608,7 +3019,7 @@ pbcopy &lt; ~/.ssh/id_ecdsa_github.pub</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>404.000000:2771.000000</string>
+				<string>579.000000:3159.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2618,112 +3029,133 @@ pbcopy &lt; ~/.ssh/id_ecdsa_github.pub</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0EBE5076-3D62-4565-B38E-14A7844849B8</key>
-		<dict>
-			<key>from</key>
-			<string>87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507 - 87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507</string>
-			<key>to</key>
-			<string>D17218B4-8E0F-4DF7-A063-040788057C44 - D17218B4-8E0F-4DF7-A063-040788057C44</string>
-		</dict>
-		<key>22C3B34D-A2E2-482C-8544-E969D6369B9C</key>
+		<key>04BC4E18-BEA5-4683-A636-E6A18C2457ED</key>
 		<dict>
 			<key>from</key>
 			<string>9F91C68F-D426-4D9A-B5DE-B5D3C305E56A - 9F91C68F-D426-4D9A-B5DE-B5D3C305E56A</string>
 			<key>to</key>
 			<string>AEA31220-367E-48D7-AFC0-06166293763F - AEA31220-367E-48D7-AFC0-06166293763F</string>
 		</dict>
-		<key>299C650D-FD6D-4E21-8492-A1BC8A1308CF</key>
+		<key>24FB6677-B3D1-4C7F-9985-AAFA8C7F3409</key>
 		<dict>
 			<key>from</key>
-			<string>CAA5E81B-8A19-439A-B077-E491D368A6C0 - CAA5E81B-8A19-439A-B077-E491D368A6C0</string>
+			<string>87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507 - 87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507</string>
 			<key>to</key>
-			<string>3537EDAC-76B6-4FE6-B84D-0891F515BCCC - 3537EDAC-76B6-4FE6-B84D-0891F515BCCC</string>
-		</dict>
-		<key>2F04E2D8-0BFE-4B34-A2E1-2587C08B5031</key>
-		<dict>
-			<key>from</key>
-			<string>130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4 - 130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4</string>
-			<key>to</key>
-			<string>E0C633DC-0875-4404-B1B5-2259BC76395B - E0C633DC-0875-4404-B1B5-2259BC76395B</string>
-		</dict>
-		<key>4B290743-90B1-4AC2-A180-14480ECDF50D</key>
-		<dict>
-			<key>from</key>
-			<string>27BAE4FD-552A-40EF-8084-2D5DD6690F45 - 27BAE4FD-552A-40EF-8084-2D5DD6690F45</string>
-			<key>to</key>
-			<string>130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4 - 130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4</string>
-		</dict>
-		<key>4DAD840E-035E-48FC-B4CE-7B3CF5242F60</key>
-		<dict>
-			<key>from</key>
-			<string>D21E9ACF-45D6-4CC6-93A8-4B20CA158818 - D21E9ACF-45D6-4CC6-93A8-4B20CA158818</string>
-			<key>to</key>
-			<string>27BAE4FD-552A-40EF-8084-2D5DD6690F45 - 27BAE4FD-552A-40EF-8084-2D5DD6690F45</string>
-		</dict>
-		<key>563D4768-E9C5-4C7F-84BF-F1EB6369B3EF</key>
-		<dict>
-			<key>from</key>
-			<string>AEA31220-367E-48D7-AFC0-06166293763F - AEA31220-367E-48D7-AFC0-06166293763F</string>
-			<key>to</key>
-			<string>BBAFF1DE-ED27-4509-8580-A2C84FC74580 - BBAFF1DE-ED27-4509-8580-A2C84FC74580</string>
-		</dict>
-		<key>57596BC6-F41F-4F29-8358-60B8F6A1E6BE</key>
-		<dict>
-			<key>from</key>
-			<string>6557AAD4-28C2-4EFF-B123-E4D0F758A361 - 6557AAD4-28C2-4EFF-B123-E4D0F758A361</string>
-			<key>to</key>
-			<string>D21E9ACF-45D6-4CC6-93A8-4B20CA158818 - D21E9ACF-45D6-4CC6-93A8-4B20CA158818</string>
-		</dict>
-		<key>73AE74B8-19ED-44E9-9052-C0A8A7EBBE79</key>
-		<dict>
-			<key>from</key>
-			<string>BBAFF1DE-ED27-4509-8580-A2C84FC74580 - BBAFF1DE-ED27-4509-8580-A2C84FC74580</string>
-			<key>to</key>
-			<string>CAA5E81B-8A19-439A-B077-E491D368A6C0 - CAA5E81B-8A19-439A-B077-E491D368A6C0</string>
-		</dict>
-		<key>7BFD5FD0-DDCE-4C86-A157-C7F78D5FB6BC</key>
-		<dict>
-			<key>from</key>
-			<string>F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F - F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F</string>
-			<key>to</key>
-			<string>0B10C906-4883-4F32-ABE5-D55837B0D0A7 - 0B10C906-4883-4F32-ABE5-D55837B0D0A7</string>
-		</dict>
-		<key>99DE6C9B-CB69-473B-A2E5-EE1F69FF46AE</key>
-		<dict>
-			<key>from</key>
-			<string>0B10C906-4883-4F32-ABE5-D55837B0D0A7 - 0B10C906-4883-4F32-ABE5-D55837B0D0A7</string>
-			<key>to</key>
-			<string>6557AAD4-28C2-4EFF-B123-E4D0F758A361 - 6557AAD4-28C2-4EFF-B123-E4D0F758A361</string>
-		</dict>
-		<key>A58C8FE6-A74E-443D-AD93-E5332755B0E7</key>
-		<dict>
-			<key>from</key>
-			<string>462ED465-53A8-47AB-A1A6-E9D6F3C98157 - 462ED465-53A8-47AB-A1A6-E9D6F3C98157</string>
-			<key>to</key>
-			<string>F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F - F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F</string>
-		</dict>
-		<key>AD305E6C-1437-4A1D-A6ED-52D3061B35F5</key>
-		<dict>
-			<key>from</key>
 			<string>D17218B4-8E0F-4DF7-A063-040788057C44 - D17218B4-8E0F-4DF7-A063-040788057C44</string>
-			<key>to</key>
-			<string>DF887771-CED3-4A0A-A9B2-32868E31471A - DF887771-CED3-4A0A-A9B2-32868E31471A</string>
 		</dict>
-		<key>C663DEF5-F4BB-43B3-80C1-8FCC26B8BAA0</key>
+		<key>3B52CD5B-330D-4AF7-B2DD-94F665A6F02C</key>
+		<dict>
+			<key>from</key>
+			<string>7498153D-4E8D-4408-9C3F-64F6B0E236B2 - 7498153D-4E8D-4408-9C3F-64F6B0E236B2</string>
+			<key>to</key>
+			<string>A2C9CDED-AE82-48AD-AB76-F710EDA682FB - A2C9CDED-AE82-48AD-AB76-F710EDA682FB</string>
+		</dict>
+		<key>4ACB9534-7A10-4C92-A93B-51081C7CD145</key>
+		<dict>
+			<key>from</key>
+			<string>6557AAD4-28C2-4EFF-B123-E4D0F758A361 - 6557AAD4-28C2-4EFF-B123-E4D0F758A361</string>
+			<key>to</key>
+			<string>D21E9ACF-45D6-4CC6-93A8-4B20CA158818 - D21E9ACF-45D6-4CC6-93A8-4B20CA158818</string>
+		</dict>
+		<key>64BCB144-9A01-4A39-AE62-F67C6FE98CAF</key>
 		<dict>
 			<key>from</key>
 			<string>3537EDAC-76B6-4FE6-B84D-0891F515BCCC - 3537EDAC-76B6-4FE6-B84D-0891F515BCCC</string>
 			<key>to</key>
 			<string>87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507 - 87ADA7D1-4DFA-4985-8BC2-2E8AB27FE507</string>
 		</dict>
-		<key>ECC9C370-273A-4AA0-A33A-94CE2869FE23</key>
+		<key>6EDC1996-EA26-4465-928F-2C928795F30C</key>
+		<dict>
+			<key>from</key>
+			<string>CAA5E81B-8A19-439A-B077-E491D368A6C0 - CAA5E81B-8A19-439A-B077-E491D368A6C0</string>
+			<key>to</key>
+			<string>3537EDAC-76B6-4FE6-B84D-0891F515BCCC - 3537EDAC-76B6-4FE6-B84D-0891F515BCCC</string>
+		</dict>
+		<key>8CE1F788-7266-4F3A-A664-D9B23140E5B8</key>
 		<dict>
 			<key>from</key>
 			<string>DF887771-CED3-4A0A-A9B2-32868E31471A - DF887771-CED3-4A0A-A9B2-32868E31471A</string>
 			<key>to</key>
 			<string>462ED465-53A8-47AB-A1A6-E9D6F3C98157 - 462ED465-53A8-47AB-A1A6-E9D6F3C98157</string>
 		</dict>
-		<key>F1F9FF64-DC39-47B2-877B-7B599B5DC621</key>
+		<key>96FB1C43-2A77-4DDD-8728-FEC1C0BCC305</key>
+		<dict>
+			<key>from</key>
+			<string>A403C219-98FD-4FDE-84CB-99A7AC67CE59 - A403C219-98FD-4FDE-84CB-99A7AC67CE59</string>
+			<key>to</key>
+			<string>F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F - F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F</string>
+		</dict>
+		<key>98A6064B-1DBD-46F0-A1B4-9BBF4AE2E6E3</key>
+		<dict>
+			<key>from</key>
+			<string>0B10C906-4883-4F32-ABE5-D55837B0D0A7 - 0B10C906-4883-4F32-ABE5-D55837B0D0A7</string>
+			<key>to</key>
+			<string>6557AAD4-28C2-4EFF-B123-E4D0F758A361 - 6557AAD4-28C2-4EFF-B123-E4D0F758A361</string>
+		</dict>
+		<key>AB022EF4-F878-42B8-A1E8-ED02FEFFA341</key>
+		<dict>
+			<key>from</key>
+			<string>462ED465-53A8-47AB-A1A6-E9D6F3C98157 - 462ED465-53A8-47AB-A1A6-E9D6F3C98157</string>
+			<key>to</key>
+			<string>A403C219-98FD-4FDE-84CB-99A7AC67CE59 - A403C219-98FD-4FDE-84CB-99A7AC67CE59</string>
+		</dict>
+		<key>AB48A06F-E941-41DC-A2B9-989CE7CA2DE7</key>
+		<dict>
+			<key>from</key>
+			<string>27BAE4FD-552A-40EF-8084-2D5DD6690F45 - 27BAE4FD-552A-40EF-8084-2D5DD6690F45</string>
+			<key>to</key>
+			<string>130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4 - 130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4</string>
+		</dict>
+		<key>B091DAA5-C5A4-45FF-97FF-87B3DBC2E8C7</key>
+		<dict>
+			<key>from</key>
+			<string>AEA31220-367E-48D7-AFC0-06166293763F - AEA31220-367E-48D7-AFC0-06166293763F</string>
+			<key>to</key>
+			<string>BBAFF1DE-ED27-4509-8580-A2C84FC74580 - BBAFF1DE-ED27-4509-8580-A2C84FC74580</string>
+		</dict>
+		<key>B33E8F83-454E-4084-81F7-0CC30C5405BF</key>
+		<dict>
+			<key>from</key>
+			<string>F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F - F7FCAF3C-AAD2-420B-9CC5-39D72B37B22F</string>
+			<key>to</key>
+			<string>0B10C906-4883-4F32-ABE5-D55837B0D0A7 - 0B10C906-4883-4F32-ABE5-D55837B0D0A7</string>
+		</dict>
+		<key>B50787A5-C5CB-43C7-BF9A-9766535061FA</key>
+		<dict>
+			<key>from</key>
+			<string>D17218B4-8E0F-4DF7-A063-040788057C44 - D17218B4-8E0F-4DF7-A063-040788057C44</string>
+			<key>to</key>
+			<string>7498153D-4E8D-4408-9C3F-64F6B0E236B2 - 7498153D-4E8D-4408-9C3F-64F6B0E236B2</string>
+		</dict>
+		<key>C69D0A82-7DDA-4F93-8CAE-CDC7A8285B97</key>
+		<dict>
+			<key>from</key>
+			<string>130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4 - 130CD3B4-59E1-4E4E-B8A8-C7E2001FA6D4</string>
+			<key>to</key>
+			<string>E0C633DC-0875-4404-B1B5-2259BC76395B - E0C633DC-0875-4404-B1B5-2259BC76395B</string>
+		</dict>
+		<key>D1F2F144-26C7-4568-BA97-B5CEDF5ADE50</key>
+		<dict>
+			<key>from</key>
+			<string>D21E9ACF-45D6-4CC6-93A8-4B20CA158818 - D21E9ACF-45D6-4CC6-93A8-4B20CA158818</string>
+			<key>to</key>
+			<string>27BAE4FD-552A-40EF-8084-2D5DD6690F45 - 27BAE4FD-552A-40EF-8084-2D5DD6690F45</string>
+		</dict>
+		<key>DDB63012-034C-4AC0-B375-4D649514963D</key>
+		<dict>
+			<key>from</key>
+			<string>A2C9CDED-AE82-48AD-AB76-F710EDA682FB - A2C9CDED-AE82-48AD-AB76-F710EDA682FB</string>
+			<key>to</key>
+			<string>DF887771-CED3-4A0A-A9B2-32868E31471A - DF887771-CED3-4A0A-A9B2-32868E31471A</string>
+		</dict>
+		<key>FB70A8BB-A141-464E-BA6D-DE12AFDA8E36</key>
+		<dict>
+			<key>from</key>
+			<string>BBAFF1DE-ED27-4509-8580-A2C84FC74580 - BBAFF1DE-ED27-4509-8580-A2C84FC74580</string>
+			<key>to</key>
+			<string>CAA5E81B-8A19-439A-B077-E491D368A6C0 - CAA5E81B-8A19-439A-B077-E491D368A6C0</string>
+		</dict>
+		<key>FCB53DCD-EA4E-444D-960D-7300B30A66D1</key>
 		<dict>
 			<key>from</key>
 			<string>E0C633DC-0875-4404-B1B5-2259BC76395B - E0C633DC-0875-4404-B1B5-2259BC76395B</string>
@@ -2756,6 +3188,14 @@ pbcopy &lt; ~/.ssh/id_ecdsa_github.pub</string>
 			<string>com.apple.Automator.Variable.Storage</string>
 			<key>name</key>
 			<string>password</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>67F1DE63-7EEB-4F87-AE49-213E2D38C0FC</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>macPass</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
