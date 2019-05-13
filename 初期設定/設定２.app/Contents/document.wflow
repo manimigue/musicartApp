@@ -175,7 +175,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:266.000000</string>
+				<string>579.000000:266.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -354,7 +354,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:447.000000</string>
+				<string>579.000000:447.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -389,6 +389,8 @@
 						<false/>
 						<key>selectedVariableUUID</key>
 						<string>124BD101-91FA-448F-9E28-3BE302015224</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
 					</dict>
 				</dict>
 				<key>AMProvides</key>
@@ -462,7 +464,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:552.000000</string>
+				<string>579.000000:552.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -505,9 +507,11 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
+					<key>Optional</key>
+					<true/>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.applescript.object</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -574,7 +578,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:654.000000</string>
+				<string>579.000000:654.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -673,12 +677,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:899.000000</string>
+				<string>579.000000:899.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -734,9 +736,7 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>password=$1
-
-mkdir -p ~/.musicart
+					<string>mkdir -p ~/.musicart
 cd ~/.musicart
 
 git clone git@github.com:manimigue/musicart.git</string>
@@ -852,7 +852,7 @@ git clone git@github.com:manimigue/musicart.git</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:1222.000000</string>
+				<string>579.000000:1081.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -913,8 +913,8 @@ git clone git@github.com:manimigue/musicart.git</string>
 					<key>displayWarning</key>
 					<false/>
 					<key>explanationText</key>
-					<string>初期設定は完了しました！
-記事の更新に関しては更新フォルダを参照してください。</string>
+					<string>最後に設定が完了したかテストを行います。
+結果を記入したメールが作成されるので，内容確認後送信してください。</string>
 					<key>negativeTitle</key>
 					<string>キャンセル</string>
 					<key>questionText</key>
@@ -1023,9 +1023,295 @@ git clone git@github.com:manimigue/musicart.git</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>424.000000:1418.000000</string>
+				<string>579.000000:1277.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>シェルスクリプトを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>source ~/.bashrc
+
+git config --global user.name
+commands=( "brew" "git" "npm" "folder-module" "jq" )
+e=''
+for c in "${commands[@]}"
+do
+	command -v $c &gt; /dev/null 2&gt;&amp;1 ||  { echo "error : $c"; e="error"; }
+done
+if [ -z "$e" ] ; then echo -e "設定は問題なく完了しております。\nご協力ありがとうございました。" ; else echo -e "以上のエラーが見つかりました。\n申し訳ございませんが，設定時に問題が起こったようです。対応いたしますので少々お待ちください。"; fi</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>C55B5C44-ED93-4532-B20B-AFEFCAD18523</string>
+				<key>Keywords</key>
+				<array>
+					<string>シェル</string>
+					<string>スクリプト</string>
+					<string>コマンド</string>
+					<string>実行</string>
+					<string>UNIX</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>6848D35A-6700-48C5-9B6E-621A349FC34B</string>
+				<key>UUID</key>
+				<string>65FC3156-F001-4975-B03C-7C896F7A5BB7</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:1639.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>AppleScriptを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}	set theMessageContent to ""	set ghUser to do shell script "source ~/.bashrc ; git config --global user.name"	repeat with i from 1 to (count of input)		set theMessageContent to theMessageContent &amp; item i of input &amp; linefeed	end repeat	tell application "Mail"		activate		set theMessage to make new outgoing message with properties {visible:true, subject:"Musicart設定テスト: " &amp; ghUser, content:theMessageContent}		tell theMessage			make new to recipient at end of to recipients with properties {address:"manimigue0701@gmail.com"}		end tell	end tellend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>F134E8C4-3A43-42C9-972E-EA641ACF3AD9</string>
+				<key>Keywords</key>
+				<array>
+					<string>実行</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>7C48531D-D793-4BE0-8179-87E93C596A5E</string>
+				<key>UUID</key>
+				<string>9CABB088-B9CD-4221-A776-0D5CB6B9EC69</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:1884.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1033,47 +1319,61 @@ git clone git@github.com:manimigue/musicart.git</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>051AC182-FCFE-478F-8633-32BE94EFC270</key>
-		<dict>
-			<key>from</key>
-			<string>5BEEC643-2C5C-404E-9149-9493A0CF489D - 5BEEC643-2C5C-404E-9149-9493A0CF489D</string>
-			<key>to</key>
-			<string>2BF60AA5-795F-487C-91A7-4D5308C5A67B - 2BF60AA5-795F-487C-91A7-4D5308C5A67B</string>
-		</dict>
-		<key>0ECCC523-73D6-4BE9-8DA1-5B759C1B2178</key>
-		<dict>
-			<key>from</key>
-			<string>ABC6F1FF-D430-483C-8732-9D8F51D5FA66 - ABC6F1FF-D430-483C-8732-9D8F51D5FA66</string>
-			<key>to</key>
-			<string>5BEEC643-2C5C-404E-9149-9493A0CF489D - 5BEEC643-2C5C-404E-9149-9493A0CF489D</string>
-		</dict>
-		<key>6C24BB28-45DA-4E72-BD7D-49614B7CDABD</key>
+		<key>1FBEEFA6-9B4A-424D-8124-4D622F6398D9</key>
 		<dict>
 			<key>from</key>
 			<string>2BF60AA5-795F-487C-91A7-4D5308C5A67B - 2BF60AA5-795F-487C-91A7-4D5308C5A67B</string>
 			<key>to</key>
 			<string>15CAD48E-8490-4CB5-B79C-83BD589BB48D - 15CAD48E-8490-4CB5-B79C-83BD589BB48D</string>
 		</dict>
-		<key>78D081B5-8EB9-4CAB-B0EC-0B9964C160AC</key>
+		<key>2126D7AD-400D-433F-9C2D-A6F3FEEEFF1B</key>
+		<dict>
+			<key>from</key>
+			<string>15CAD48E-8490-4CB5-B79C-83BD589BB48D - 15CAD48E-8490-4CB5-B79C-83BD589BB48D</string>
+			<key>to</key>
+			<string>59E76C42-2570-4894-9DB8-6C639CEEF13D - 59E76C42-2570-4894-9DB8-6C639CEEF13D</string>
+		</dict>
+		<key>353EBE44-C3A2-447B-9E33-326C8CBEAE4C</key>
+		<dict>
+			<key>from</key>
+			<string>5BEEC643-2C5C-404E-9149-9493A0CF489D - 5BEEC643-2C5C-404E-9149-9493A0CF489D</string>
+			<key>to</key>
+			<string>2BF60AA5-795F-487C-91A7-4D5308C5A67B - 2BF60AA5-795F-487C-91A7-4D5308C5A67B</string>
+		</dict>
+		<key>5F50B35A-F95F-4E42-A5AE-D0274D5F0855</key>
+		<dict>
+			<key>from</key>
+			<string>65FC3156-F001-4975-B03C-7C896F7A5BB7 - 65FC3156-F001-4975-B03C-7C896F7A5BB7</string>
+			<key>to</key>
+			<string>9CABB088-B9CD-4221-A776-0D5CB6B9EC69 - 9CABB088-B9CD-4221-A776-0D5CB6B9EC69</string>
+		</dict>
+		<key>72B00B46-D552-40FA-8383-DF30854CD25C</key>
+		<dict>
+			<key>from</key>
+			<string>ABC6F1FF-D430-483C-8732-9D8F51D5FA66 - ABC6F1FF-D430-483C-8732-9D8F51D5FA66</string>
+			<key>to</key>
+			<string>5BEEC643-2C5C-404E-9149-9493A0CF489D - 5BEEC643-2C5C-404E-9149-9493A0CF489D</string>
+		</dict>
+		<key>7C1BC420-81B8-4577-84EB-4879452C7AE9</key>
+		<dict>
+			<key>from</key>
+			<string>59E76C42-2570-4894-9DB8-6C639CEEF13D - 59E76C42-2570-4894-9DB8-6C639CEEF13D</string>
+			<key>to</key>
+			<string>65FC3156-F001-4975-B03C-7C896F7A5BB7 - 65FC3156-F001-4975-B03C-7C896F7A5BB7</string>
+		</dict>
+		<key>7C8D9E64-4E00-4978-ABB1-700540D34249</key>
 		<dict>
 			<key>from</key>
 			<string>80F0D8BA-C18A-4ACD-903C-C4E42AA2C3EE - 80F0D8BA-C18A-4ACD-903C-C4E42AA2C3EE</string>
 			<key>to</key>
 			<string>216DEBF2-68B0-4131-BE79-3CE210D4C25A - 216DEBF2-68B0-4131-BE79-3CE210D4C25A</string>
 		</dict>
-		<key>B077B0ED-ACCB-4CC8-BB03-FAF970DF6C6B</key>
+		<key>A179EDD6-6044-4AE3-9D7D-76BF286064FD</key>
 		<dict>
 			<key>from</key>
 			<string>216DEBF2-68B0-4131-BE79-3CE210D4C25A - 216DEBF2-68B0-4131-BE79-3CE210D4C25A</string>
 			<key>to</key>
 			<string>ABC6F1FF-D430-483C-8732-9D8F51D5FA66 - ABC6F1FF-D430-483C-8732-9D8F51D5FA66</string>
-		</dict>
-		<key>C01F31C0-50CF-460C-8357-915D989B1A26</key>
-		<dict>
-			<key>from</key>
-			<string>15CAD48E-8490-4CB5-B79C-83BD589BB48D - 15CAD48E-8490-4CB5-B79C-83BD589BB48D</string>
-			<key>to</key>
-			<string>59E76C42-2570-4894-9DB8-6C639CEEF13D - 59E76C42-2570-4894-9DB8-6C639CEEF13D</string>
 		</dict>
 	</dict>
 	<key>variables</key>

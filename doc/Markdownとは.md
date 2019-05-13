@@ -1,5 +1,7 @@
 ## Markdownとは
 
+[ホームへ戻る](../index.html)
+
 [Typoraの使い方](./Typoraの使い方.html)を既に読まれた方は[よく使う記法](#よく使う記法)をお読みください。
 
 ### なぜMarkdownを使うのか

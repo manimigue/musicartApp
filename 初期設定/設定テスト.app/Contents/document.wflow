@@ -61,292 +61,14 @@
 					<key>COMMAND_STRING</key>
 					<string>source ~/.bashrc
 
-git config --global user.name</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>0</integer>
-					<key>shell</key>
-					<string>/bin/bash</string>
-					<key>source</key>
-					<string></string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.RunShellScript</string>
-				<key>CFBundleVersion</key>
-				<string>2.0.3</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>RunShellScriptAction</string>
-				<key>InputUUID</key>
-				<string>A09DD3F4-1734-41F6-A81B-84556C41A21D</string>
-				<key>Keywords</key>
-				<array>
-					<string>シェル</string>
-					<string>スクリプト</string>
-					<string>コマンド</string>
-					<string>実行</string>
-					<string>UNIX</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>42CC9599-35C0-4B57-A54F-1528F966E204</string>
-				<key>UUID</key>
-				<string>2138E6D8-B67B-4BA3-9F64-C8C4290CECF2</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>inputMethod</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>source</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>COMMAND_STRING</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-					<key>4</key>
-					<dict>
-						<key>default value</key>
-						<string>/bin/sh</string>
-						<key>name</key>
-						<string>shell</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>4</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>579.000000:252.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>D31CE713-7083-4D0A-8785-F9C44753F834</string>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>変数の値を設定</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>D31CE713-7083-4D0A-8785-F9C44753F834</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.SetValueofVariable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Set_Value_of_Variable</string>
-				<key>InputUUID</key>
-				<string>8539986F-FCCD-4591-89BF-31518B807A44</string>
-				<key>Keywords</key>
-				<array>
-					<string>変数</string>
-					<string>バインド</string>
-					<string>入力</string>
-					<string>出力</string>
-					<string>記憶装置</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>1ECB2F97-070E-49B0-94D8-E0B0A2C68EBC</string>
-				<key>UUID</key>
-				<string>A4005927-6268-4F8B-9E8E-3A8B315246A6</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>579.000000:357.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.string</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.0.3</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>COMMAND_STRING</key>
-					<dict/>
-					<key>CheckedForUserDefaultShell</key>
-					<dict/>
-					<key>inputMethod</key>
-					<dict/>
-					<key>shell</key>
-					<dict/>
-					<key>source</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.string</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Run Shell Script.action</string>
-				<key>ActionName</key>
-				<string>シェルスクリプトを実行</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>COMMAND_STRING</key>
-					<string>source ~/.bashrc
-
-commands=( "brew" "npm" "folder-module" "jq" )
+git config --global user.name
+commands=( "brew" "git" "npm" "folder-module" "jq" )
 e=''
 for c in "${commands[@]}"
 do
 	command -v $c &gt; /dev/null 2&gt;&amp;1 ||  { echo "error : $c"; e="error"; }
 done
-if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "以上のエラーが見つかりました"; fi</string>
+if [ -z "$e" ] ; then echo -e "設定は問題なく完了しております。\nご協力ありがとうございました。" ; else echo -e "以上のエラーが見つかりました。\n申し訳ございませんが，設定時に問題が起こったようです。対応いたしますので少々お待ちください。"; fi</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -371,7 +93,7 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>D4E1F622-8E24-47A9-B359-DD62AC20BB30</string>
+				<string>C3B21643-CE77-4ED9-978F-4C6DD31516BC</string>
 				<key>Keywords</key>
 				<array>
 					<string>シェル</string>
@@ -381,9 +103,9 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 					<string>UNIX</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>4BE50C37-835A-4F9C-9DB4-D7A3A2705EC2</string>
+				<string>FC57453D-710F-4FEF-B5F4-DEB310B4632C</string>
 				<key>UUID</key>
-				<string>1E55A84A-6E11-4A42-90BD-CE06A32B37CD</string>
+				<string>6C03AA0C-51C6-4872-9867-883DEEC08990</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -456,10 +178,12 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 						<string>4</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>579.000000:539.000000</string>
+				<string>579.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -481,30 +205,14 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.2.2</string>
+				<string>1.0.2</string>
 				<key>AMApplication</key>
 				<array>
-					<string>メール</string>
+					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>account</key>
-					<dict/>
-					<key>bccAddresses</key>
-					<dict/>
-					<key>ccAddresses</key>
-					<dict/>
-					<key>message</key>
-					<dict/>
-					<key>subject</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>Musicart設定テスト: </string>
-							<string>$(D31CE713-7083-4D0A-8785-F9C44753F834)</string>
-						</array>
-					</dict>
-					<key>toAddresses</key>
+					<key>source</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -513,152 +221,75 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.mail.message-object</string>
+						<string>com.apple.applescript.object</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/New Mail Message.action</string>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
 				<key>ActionName</key>
-				<string>新規メールメッセージ</string>
+				<string>AppleScriptを実行</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>account</key>
-					<string>defaultAccount</string>
-					<key>bccAddresses</key>
-					<string></string>
-					<key>ccAddresses</key>
-					<string></string>
-					<key>message</key>
-					<string></string>
-					<key>subject</key>
-					<string>Musicart設定テスト: $(D31CE713-7083-4D0A-8785-F9C44753F834)</string>
-					<key>toAddresses</key>
-					<string>manimigue0701@gmail.com</string>
+					<key>source</key>
+					<string>on run {input, parameters}	set theMessageContent to ""	set ghUser to do shell script "source ~/.bashrc ; git config --global user.name"	repeat with i from 1 to (count of input)		set theMessageContent to theMessageContent &amp; item i of input &amp; linefeed	end repeat	tell application "Mail"		activate		set theMessage to make new outgoing message with properties {visible:true, subject:"Musicart設定テスト: " &amp; ghUser, content:theMessageContent}		tell theMessage			make new to recipient at end of to recipients with properties {address:"manimigue0701@gmail.com"}		end tell	end tellend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.CreateNewEmail</string>
+				<string>com.apple.Automator.RunScript</string>
 				<key>CFBundleVersion</key>
-				<string>1.2.2</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryMail</string>
+					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMCreateNewEmailAction</string>
+				<string>RunScriptAction</string>
 				<key>InputUUID</key>
-				<string>158A3F21-DAB6-430C-90A9-4898412ABB2C</string>
+				<string>B1D52DF9-3F36-4825-B92B-27493B464C7E</string>
 				<key>Keywords</key>
 				<array>
-					<string>作成</string>
-					<string>作成</string>
-					<string>メッセージ</string>
-					<string>メール</string>
-					<string>新規</string>
-					<string>送信</string>
-					<string>アドレス</string>
-					<string>イメージ</string>
-					<string>写真</string>
-					<string>ファイル</string>
+					<string>実行</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>4F3130A7-49F1-4AE8-B4AF-6E3AED34C98B</string>
+				<string>99B9A7FB-9457-4588-BDCD-8EA9585805D7</string>
 				<key>UUID</key>
-				<string>F2E908EB-6D17-49E3-A056-E2BF42D60C9C</string>
+				<string>37851218-A44E-4573-AACE-427ACB003F1F</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>Mail</string>
+					<string>Automator</string>
 				</array>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>defaultAccount</string>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
 						<key>name</key>
-						<string>account</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
 						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>message</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>subject</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>bccAddresses</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-					<key>4</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>ccAddresses</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>4</string>
-					</dict>
-					<key>5</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>toAddresses</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>5</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>579.000000:826.000000</string>
+				<string>579.000000:497.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/New Mail Message.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -666,26 +297,12 @@ if [ -z "$e" ] ; then echo "エラーはありませんでした" ; else echo "�
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>78E7A5AD-2B94-4BC0-8483-210225C76581</key>
+		<key>61F21D7E-C2BE-4566-BD72-869509B35593</key>
 		<dict>
 			<key>from</key>
-			<string>2138E6D8-B67B-4BA3-9F64-C8C4290CECF2 - 2138E6D8-B67B-4BA3-9F64-C8C4290CECF2</string>
+			<string>6C03AA0C-51C6-4872-9867-883DEEC08990 - 6C03AA0C-51C6-4872-9867-883DEEC08990</string>
 			<key>to</key>
-			<string>A4005927-6268-4F8B-9E8E-3A8B315246A6 - A4005927-6268-4F8B-9E8E-3A8B315246A6</string>
-		</dict>
-		<key>9CF36FD7-712B-4321-8841-AB6DF93DF06D</key>
-		<dict>
-			<key>from</key>
-			<string>1E55A84A-6E11-4A42-90BD-CE06A32B37CD - 1E55A84A-6E11-4A42-90BD-CE06A32B37CD</string>
-			<key>to</key>
-			<string>F2E908EB-6D17-49E3-A056-E2BF42D60C9C - F2E908EB-6D17-49E3-A056-E2BF42D60C9C</string>
-		</dict>
-		<key>FD7E822F-4ABE-42F0-9043-050316AC4D4F</key>
-		<dict>
-			<key>from</key>
-			<string>A4005927-6268-4F8B-9E8E-3A8B315246A6 - A4005927-6268-4F8B-9E8E-3A8B315246A6</string>
-			<key>to</key>
-			<string>1E55A84A-6E11-4A42-90BD-CE06A32B37CD - 1E55A84A-6E11-4A42-90BD-CE06A32B37CD</string>
+			<string>37851218-A44E-4573-AACE-427ACB003F1F - 37851218-A44E-4573-AACE-427ACB003F1F</string>
 		</dict>
 	</dict>
 	<key>variables</key>
