@@ -1,6 +1,6 @@
 ## README
 
-[ホームへ戻る](../index.html)
+[ホームへ戻る](./index.html)
 
 musicart v0.1にようこそ。
 
