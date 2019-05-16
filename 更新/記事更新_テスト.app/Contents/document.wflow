@@ -2468,7 +2468,7 @@ echo -e "$log"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>579.000000:2988.000000</string>
+				<string>579.000000:2579.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2576,9 +2576,397 @@ echo -e "$log"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>579.000000:3093.000000</string>
+				<string>579.000000:2684.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>CCC2D907-224D-4CFC-B5E3-DB0709007E2A</string>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>変数の値を取得</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>CCC2D907-224D-4CFC-B5E3-DB0709007E2A</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Get_Value_of_Variable</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>589552DF-08A1-4C0A-873E-A010E01F6D7B</string>
+				<key>Keywords</key>
+				<array>
+					<string>変数</string>
+					<string>バインド</string>
+					<string>入力</string>
+					<string>出力</string>
+					<string>記憶装置</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>12DA4001-5909-4DA3-9E68-4A0C3DF82B4C</string>
+				<key>UUID</key>
+				<string>3DFC91E4-6407-43CE-9D99-F65F7F232609</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:2786.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>シェルスクリプトを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>url=$1
+
+appPath=~/.musicart/musicart
+articlesPath=${appPath}/src/$articleType
+logPath=${appPath}/.log
+logFolder=${logPath}/${url}
+
+cat ${logFolder}.enc</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>8C774985-7263-4932-AC74-FC461C5CAE52</string>
+				<key>Keywords</key>
+				<array>
+					<string>シェル</string>
+					<string>スクリプト</string>
+					<string>コマンド</string>
+					<string>実行</string>
+					<string>UNIX</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>15F8C829-2826-47F1-8F06-293361EB24E1</string>
+				<key>UUID</key>
+				<string>2A6DEE0E-0515-4E1C-A5E3-C56916118A11</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:2968.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>AppleScriptを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}	set theMessageContent to ""	set ghUser to do shell script "source ~/.bashrc ; git config --global user.name"	repeat with i from 1 to (count of input)		set theMessageContent to theMessageContent &amp; item i of input &amp; linefeed	end repeat	tell application "Mail"		activate		set theMessage to make new outgoing message with properties {visible:true, subject:"Musicart更新テスト: " &amp; ghUser, content:theMessageContent}		tell theMessage			make new to recipient at end of to recipients with properties {address:"manimigue0701@gmail.com"}		end tell	end tellend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>D7BDEC2C-26E9-4063-98C0-DEB7E8991177</string>
+				<key>Keywords</key>
+				<array>
+					<string>実行</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>6CC6ACC8-10B3-4D14-B00A-972B786337D9</string>
+				<key>UUID</key>
+				<string>D0797408-B77E-43BC-AE03-ECC16F5B7DBB</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>579.000000:3213.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -2748,7 +3136,7 @@ echo -e "$log"</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>579.000000:3289.000000</string>
+				<string>579.000000:3409.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -2758,145 +3146,166 @@ echo -e "$log"</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0C5B1479-D139-4780-9446-248A2A76036F</key>
+		<key>0286367E-312F-4643-9E63-6D0C57D2DCDD</key>
+		<dict>
+			<key>from</key>
+			<string>8961A48A-15B1-4EC7-9F7E-D49C945130E5 - 8961A48A-15B1-4EC7-9F7E-D49C945130E5</string>
+			<key>to</key>
+			<string>7E8F4FD8-FC40-419D-BACE-AF799D163E53 - 7E8F4FD8-FC40-419D-BACE-AF799D163E53</string>
+		</dict>
+		<key>128C348F-5279-44A0-9603-CE712D5CAE71</key>
+		<dict>
+			<key>from</key>
+			<string>0B5E5F98-F957-4DAA-9BE4-41199AE68D13 - 0B5E5F98-F957-4DAA-9BE4-41199AE68D13</string>
+			<key>to</key>
+			<string>D3160628-AD49-42AF-936F-931F97115A6E - D3160628-AD49-42AF-936F-931F97115A6E</string>
+		</dict>
+		<key>13F2B1D9-B4B5-4EC5-B3EE-497DE3B8CA4E</key>
+		<dict>
+			<key>from</key>
+			<string>B34809BE-B20C-48FB-8BFC-36E697D4309B - B34809BE-B20C-48FB-8BFC-36E697D4309B</string>
+			<key>to</key>
+			<string>0B5E5F98-F957-4DAA-9BE4-41199AE68D13 - 0B5E5F98-F957-4DAA-9BE4-41199AE68D13</string>
+		</dict>
+		<key>1527AAF8-9F72-4753-8A1A-ABC7231417FF</key>
+		<dict>
+			<key>from</key>
+			<string>978CD429-F0AD-480C-9796-8719EF4BA923 - 978CD429-F0AD-480C-9796-8719EF4BA923</string>
+			<key>to</key>
+			<string>BBECC274-CCEF-4192-9176-9F3DD391035F - BBECC274-CCEF-4192-9176-9F3DD391035F</string>
+		</dict>
+		<key>21001B5C-97B7-4416-AEB7-F49470D97E45</key>
+		<dict>
+			<key>from</key>
+			<string>255D9A94-D613-4AB7-A739-AA1DE786C85D - 255D9A94-D613-4AB7-A739-AA1DE786C85D</string>
+			<key>to</key>
+			<string>7CE9143E-A85B-4975-A055-0055296EB00D - 7CE9143E-A85B-4975-A055-0055296EB00D</string>
+		</dict>
+		<key>256AB5C4-95BD-4D6E-BCE1-E734B6E3983C</key>
+		<dict>
+			<key>from</key>
+			<string>7CE9143E-A85B-4975-A055-0055296EB00D - 7CE9143E-A85B-4975-A055-0055296EB00D</string>
+			<key>to</key>
+			<string>CB3CF047-C4B7-41E6-A71C-311533CB3538 - CB3CF047-C4B7-41E6-A71C-311533CB3538</string>
+		</dict>
+		<key>29687C45-3E56-4544-8EE1-60EDEFAB9A08</key>
+		<dict>
+			<key>from</key>
+			<string>43533A7A-0813-4CEF-9950-FD2CAD31B856 - 43533A7A-0813-4CEF-9950-FD2CAD31B856</string>
+			<key>to</key>
+			<string>752912FB-F719-4725-9F9C-522205BA3132 - 752912FB-F719-4725-9F9C-522205BA3132</string>
+		</dict>
+		<key>3101FBBE-5D77-4227-AD2B-6D5E69ED8CDD</key>
+		<dict>
+			<key>from</key>
+			<string>7E8F4FD8-FC40-419D-BACE-AF799D163E53 - 7E8F4FD8-FC40-419D-BACE-AF799D163E53</string>
+			<key>to</key>
+			<string>0BFEB323-58F9-471B-816D-E696E9A9BC15 - 0BFEB323-58F9-471B-816D-E696E9A9BC15</string>
+		</dict>
+		<key>391F5969-05AE-4135-8784-C009FC59F91A</key>
+		<dict>
+			<key>from</key>
+			<string>6B4C551F-F956-43F6-B759-D9BB2C92BA54 - 6B4C551F-F956-43F6-B759-D9BB2C92BA54</string>
+			<key>to</key>
+			<string>34B23131-7CD5-41E5-A528-D962B9F297B1 - 34B23131-7CD5-41E5-A528-D962B9F297B1</string>
+		</dict>
+		<key>4166C741-91CA-48F9-91A9-D68E121D39E0</key>
+		<dict>
+			<key>from</key>
+			<string>2CBE3C14-DE96-4FC8-A60A-21CC9721471E - 2CBE3C14-DE96-4FC8-A60A-21CC9721471E</string>
+			<key>to</key>
+			<string>565C9648-2B07-46E3-814D-315ABE68BB77 - 565C9648-2B07-46E3-814D-315ABE68BB77</string>
+		</dict>
+		<key>491ECDF0-275C-4FA6-9F3E-AD33252CA960</key>
+		<dict>
+			<key>from</key>
+			<string>2A6DEE0E-0515-4E1C-A5E3-C56916118A11 - 2A6DEE0E-0515-4E1C-A5E3-C56916118A11</string>
+			<key>to</key>
+			<string>D0797408-B77E-43BC-AE03-ECC16F5B7DBB - D0797408-B77E-43BC-AE03-ECC16F5B7DBB</string>
+		</dict>
+		<key>6B89AC15-498B-4FFE-9952-B487E03A61C6</key>
+		<dict>
+			<key>from</key>
+			<string>BBECC274-CCEF-4192-9176-9F3DD391035F - BBECC274-CCEF-4192-9176-9F3DD391035F</string>
+			<key>to</key>
+			<string>2CBE3C14-DE96-4FC8-A60A-21CC9721471E - 2CBE3C14-DE96-4FC8-A60A-21CC9721471E</string>
+		</dict>
+		<key>6DFDD8A2-F3DD-499C-8543-7A6F890B773A</key>
 		<dict>
 			<key>from</key>
 			<string>83F32585-1747-4485-B29F-AA5B6B92D6E2 - 83F32585-1747-4485-B29F-AA5B6B92D6E2</string>
 			<key>to</key>
 			<string>978CD429-F0AD-480C-9796-8719EF4BA923 - 978CD429-F0AD-480C-9796-8719EF4BA923</string>
 		</dict>
-		<key>16826A7D-CC28-40DA-A0BE-BBF7A529EDC2</key>
+		<key>8386245E-D027-4156-81FA-84A5AEE0CEEA</key>
+		<dict>
+			<key>from</key>
+			<string>3DFC91E4-6407-43CE-9D99-F65F7F232609 - 3DFC91E4-6407-43CE-9D99-F65F7F232609</string>
+			<key>to</key>
+			<string>2A6DEE0E-0515-4E1C-A5E3-C56916118A11 - 2A6DEE0E-0515-4E1C-A5E3-C56916118A11</string>
+		</dict>
+		<key>84F92B8D-8312-451B-8C6E-3913B162FF36</key>
+		<dict>
+			<key>from</key>
+			<string>7ED025B0-937E-4722-8AA7-EC458A52DEEF - 7ED025B0-937E-4722-8AA7-EC458A52DEEF</string>
+			<key>to</key>
+			<string>B34809BE-B20C-48FB-8BFC-36E697D4309B - B34809BE-B20C-48FB-8BFC-36E697D4309B</string>
+		</dict>
+		<key>883AF015-0536-4DA6-AE3B-CE7AE08100CF</key>
 		<dict>
 			<key>from</key>
 			<string>752912FB-F719-4725-9F9C-522205BA3132 - 752912FB-F719-4725-9F9C-522205BA3132</string>
 			<key>to</key>
 			<string>255D9A94-D613-4AB7-A739-AA1DE786C85D - 255D9A94-D613-4AB7-A739-AA1DE786C85D</string>
 		</dict>
-		<key>2AD3D784-083A-4631-BC27-FC10CB50CAF7</key>
+		<key>8E6D450A-3F29-4C92-A6DC-E5F7A0C8A8C0</key>
 		<dict>
 			<key>from</key>
-			<string>D3160628-AD49-42AF-936F-931F97115A6E - D3160628-AD49-42AF-936F-931F97115A6E</string>
-			<key>to</key>
-			<string>33024861-5FDC-4D8F-8A40-1013DD215688 - 33024861-5FDC-4D8F-8A40-1013DD215688</string>
-		</dict>
-		<key>2CF673D1-4B63-48D7-A92C-869107B0C0DD</key>
-		<dict>
-			<key>from</key>
-			<string>0B5E5F98-F957-4DAA-9BE4-41199AE68D13 - 0B5E5F98-F957-4DAA-9BE4-41199AE68D13</string>
-			<key>to</key>
-			<string>D3160628-AD49-42AF-936F-931F97115A6E - D3160628-AD49-42AF-936F-931F97115A6E</string>
-		</dict>
-		<key>2E6C7166-F0AC-4DBB-BD3C-B30CA8E6A946</key>
-		<dict>
-			<key>from</key>
-			<string>978CD429-F0AD-480C-9796-8719EF4BA923 - 978CD429-F0AD-480C-9796-8719EF4BA923</string>
-			<key>to</key>
-			<string>BBECC274-CCEF-4192-9176-9F3DD391035F - BBECC274-CCEF-4192-9176-9F3DD391035F</string>
-		</dict>
-		<key>31AC5C77-A22C-4FFB-B3ED-CE445536A168</key>
-		<dict>
-			<key>from</key>
-			<string>B34809BE-B20C-48FB-8BFC-36E697D4309B - B34809BE-B20C-48FB-8BFC-36E697D4309B</string>
-			<key>to</key>
-			<string>0B5E5F98-F957-4DAA-9BE4-41199AE68D13 - 0B5E5F98-F957-4DAA-9BE4-41199AE68D13</string>
-		</dict>
-		<key>33927A1B-B380-4C23-85D7-DD140AB497EE</key>
-		<dict>
-			<key>from</key>
-			<string>2CBE3C14-DE96-4FC8-A60A-21CC9721471E - 2CBE3C14-DE96-4FC8-A60A-21CC9721471E</string>
-			<key>to</key>
-			<string>565C9648-2B07-46E3-814D-315ABE68BB77 - 565C9648-2B07-46E3-814D-315ABE68BB77</string>
-		</dict>
-		<key>41CF8422-404A-46E0-B17F-971D4489023A</key>
-		<dict>
-			<key>from</key>
-			<string>43533A7A-0813-4CEF-9950-FD2CAD31B856 - 43533A7A-0813-4CEF-9950-FD2CAD31B856</string>
-			<key>to</key>
-			<string>752912FB-F719-4725-9F9C-522205BA3132 - 752912FB-F719-4725-9F9C-522205BA3132</string>
-		</dict>
-		<key>59F82703-F897-4DA9-A533-AB16ED9725C2</key>
-		<dict>
-			<key>from</key>
-			<string>6B4C551F-F956-43F6-B759-D9BB2C92BA54 - 6B4C551F-F956-43F6-B759-D9BB2C92BA54</string>
-			<key>to</key>
-			<string>34B23131-7CD5-41E5-A528-D962B9F297B1 - 34B23131-7CD5-41E5-A528-D962B9F297B1</string>
-		</dict>
-		<key>7A9B96C0-5D72-4C67-BFF9-EE54A5A4634A</key>
-		<dict>
-			<key>from</key>
-			<string>34B23131-7CD5-41E5-A528-D962B9F297B1 - 34B23131-7CD5-41E5-A528-D962B9F297B1</string>
-			<key>to</key>
-			<string>7ED025B0-937E-4722-8AA7-EC458A52DEEF - 7ED025B0-937E-4722-8AA7-EC458A52DEEF</string>
-		</dict>
-		<key>80A2A117-4CF6-49F0-AC02-0A6D87EEF846</key>
-		<dict>
-			<key>from</key>
-			<string>7CE9143E-A85B-4975-A055-0055296EB00D - 7CE9143E-A85B-4975-A055-0055296EB00D</string>
-			<key>to</key>
-			<string>CB3CF047-C4B7-41E6-A71C-311533CB3538 - CB3CF047-C4B7-41E6-A71C-311533CB3538</string>
-		</dict>
-		<key>98479735-373B-4622-8A01-DE0FA225DDDE</key>
-		<dict>
-			<key>from</key>
-			<string>33024861-5FDC-4D8F-8A40-1013DD215688 - 33024861-5FDC-4D8F-8A40-1013DD215688</string>
-			<key>to</key>
-			<string>8961A48A-15B1-4EC7-9F7E-D49C945130E5 - 8961A48A-15B1-4EC7-9F7E-D49C945130E5</string>
-		</dict>
-		<key>9848B19E-3283-45C0-A227-0B3BB0CDC806</key>
-		<dict>
-			<key>from</key>
-			<string>CB3CF047-C4B7-41E6-A71C-311533CB3538 - CB3CF047-C4B7-41E6-A71C-311533CB3538</string>
-			<key>to</key>
-			<string>6B4C551F-F956-43F6-B759-D9BB2C92BA54 - 6B4C551F-F956-43F6-B759-D9BB2C92BA54</string>
-		</dict>
-		<key>B19453D8-CA28-4D2F-BFE9-39F35C8A4753</key>
-		<dict>
-			<key>from</key>
-			<string>565C9648-2B07-46E3-814D-315ABE68BB77 - 565C9648-2B07-46E3-814D-315ABE68BB77</string>
-			<key>to</key>
-			<string>43533A7A-0813-4CEF-9950-FD2CAD31B856 - 43533A7A-0813-4CEF-9950-FD2CAD31B856</string>
-		</dict>
-		<key>B25CCA98-EDB9-4C00-AACD-543908734B28</key>
-		<dict>
-			<key>from</key>
-			<string>0BFEB323-58F9-471B-816D-E696E9A9BC15 - 0BFEB323-58F9-471B-816D-E696E9A9BC15</string>
+			<string>D0797408-B77E-43BC-AE03-ECC16F5B7DBB - D0797408-B77E-43BC-AE03-ECC16F5B7DBB</string>
 			<key>to</key>
 			<string>8404162B-D374-4DFA-976E-FC90447E3C86 - 8404162B-D374-4DFA-976E-FC90447E3C86</string>
 		</dict>
-		<key>B58ECF13-9A0E-4CFA-A7F6-FF7CF5BFF040</key>
+		<key>C60AF731-8EC0-4473-A168-E05E240358A9</key>
 		<dict>
 			<key>from</key>
-			<string>BBECC274-CCEF-4192-9176-9F3DD391035F - BBECC274-CCEF-4192-9176-9F3DD391035F</string>
+			<string>33024861-5FDC-4D8F-8A40-1013DD215688 - 33024861-5FDC-4D8F-8A40-1013DD215688</string>
 			<key>to</key>
-			<string>2CBE3C14-DE96-4FC8-A60A-21CC9721471E - 2CBE3C14-DE96-4FC8-A60A-21CC9721471E</string>
-		</dict>
-		<key>C11D182C-3895-41E2-B74A-DEA0D9810321</key>
-		<dict>
-			<key>from</key>
-			<string>255D9A94-D613-4AB7-A739-AA1DE786C85D - 255D9A94-D613-4AB7-A739-AA1DE786C85D</string>
-			<key>to</key>
-			<string>7CE9143E-A85B-4975-A055-0055296EB00D - 7CE9143E-A85B-4975-A055-0055296EB00D</string>
-		</dict>
-		<key>DD6A0B5F-661E-4D1B-884F-0AB88A4DE0E9</key>
-		<dict>
-			<key>from</key>
-			<string>7E8F4FD8-FC40-419D-BACE-AF799D163E53 - 7E8F4FD8-FC40-419D-BACE-AF799D163E53</string>
-			<key>to</key>
-			<string>0BFEB323-58F9-471B-816D-E696E9A9BC15 - 0BFEB323-58F9-471B-816D-E696E9A9BC15</string>
-		</dict>
-		<key>E96085CD-3637-4D02-BE30-1DCE0F49A4F1</key>
-		<dict>
-			<key>from</key>
-			<string>7ED025B0-937E-4722-8AA7-EC458A52DEEF - 7ED025B0-937E-4722-8AA7-EC458A52DEEF</string>
-			<key>to</key>
-			<string>B34809BE-B20C-48FB-8BFC-36E697D4309B - B34809BE-B20C-48FB-8BFC-36E697D4309B</string>
-		</dict>
-		<key>F29307ED-D339-444F-949C-CEB7952E6DE1</key>
-		<dict>
-			<key>from</key>
 			<string>8961A48A-15B1-4EC7-9F7E-D49C945130E5 - 8961A48A-15B1-4EC7-9F7E-D49C945130E5</string>
+		</dict>
+		<key>CD178173-BBE5-4F35-B73B-0A8A88500F70</key>
+		<dict>
+			<key>from</key>
+			<string>D3160628-AD49-42AF-936F-931F97115A6E - D3160628-AD49-42AF-936F-931F97115A6E</string>
 			<key>to</key>
-			<string>7E8F4FD8-FC40-419D-BACE-AF799D163E53 - 7E8F4FD8-FC40-419D-BACE-AF799D163E53</string>
+			<string>33024861-5FDC-4D8F-8A40-1013DD215688 - 33024861-5FDC-4D8F-8A40-1013DD215688</string>
+		</dict>
+		<key>D5A196B5-B5A0-4E3D-A43E-3EFAD7146110</key>
+		<dict>
+			<key>from</key>
+			<string>0BFEB323-58F9-471B-816D-E696E9A9BC15 - 0BFEB323-58F9-471B-816D-E696E9A9BC15</string>
+			<key>to</key>
+			<string>3DFC91E4-6407-43CE-9D99-F65F7F232609 - 3DFC91E4-6407-43CE-9D99-F65F7F232609</string>
+		</dict>
+		<key>D8AEF01E-DDEB-4762-B01D-3920F15C3F3E</key>
+		<dict>
+			<key>from</key>
+			<string>565C9648-2B07-46E3-814D-315ABE68BB77 - 565C9648-2B07-46E3-814D-315ABE68BB77</string>
+			<key>to</key>
+			<string>43533A7A-0813-4CEF-9950-FD2CAD31B856 - 43533A7A-0813-4CEF-9950-FD2CAD31B856</string>
+		</dict>
+		<key>EA1DB931-27B2-4DBD-B798-C89D32200BE6</key>
+		<dict>
+			<key>from</key>
+			<string>34B23131-7CD5-41E5-A528-D962B9F297B1 - 34B23131-7CD5-41E5-A528-D962B9F297B1</string>
+			<key>to</key>
+			<string>7ED025B0-937E-4722-8AA7-EC458A52DEEF - 7ED025B0-937E-4722-8AA7-EC458A52DEEF</string>
+		</dict>
+		<key>F9215A2A-4517-4BE3-85E5-2C5D18DB990E</key>
+		<dict>
+			<key>from</key>
+			<string>CB3CF047-C4B7-41E6-A71C-311533CB3538 - CB3CF047-C4B7-41E6-A71C-311533CB3538</string>
+			<key>to</key>
+			<string>6B4C551F-F956-43F6-B759-D9BB2C92BA54 - 6B4C551F-F956-43F6-B759-D9BB2C92BA54</string>
 		</dict>
 	</dict>
 	<key>variables</key>
