@@ -178,8 +178,6 @@ if [ -z "$e" ] ; then echo -e "設定は問題なく完了しております。\
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -282,8 +280,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -297,7 +293,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>61F21D7E-C2BE-4566-BD72-869509B35593</key>
+		<key>170E09C4-3875-4470-AF67-644228B44C2A</key>
 		<dict>
 			<key>from</key>
 			<string>6C03AA0C-51C6-4872-9867-883DEEC08990 - 6C03AA0C-51C6-4872-9867-883DEEC08990</string>
