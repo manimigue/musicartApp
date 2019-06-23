@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#必要なもの : $1=copy_assets.shの$beforePathes
+
 replace=$(
 sed -e 's/[[:space:]]//g' -e 's/^assets/\.\/assets/g' <<< "$1"
 )

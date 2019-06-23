@@ -1,9 +1,0 @@
-import React, { Component } from 'react'
-import MarkdownRender from "@nteract/markdown";
-
-class ARTICLE extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0)
-  }
-  render(){
-    const source = `

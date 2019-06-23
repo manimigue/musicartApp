@@ -1,0 +1,7 @@
+    return(
+      <MarkdownRender className='article' source={source} escapeHtml={false}/>
+    )
+  }
+}
+
+export default C_ARTICLE;

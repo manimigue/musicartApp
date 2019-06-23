@@ -1,14 +1,14 @@
 #! /bin/bash
 
+#必要なもの : $1=mdファイルの絶対パス $2=articleの生成ファイル(articles/assetsチェック) その他 var.shとpath.sh
+
 file=$1
-changerPath=$2
-articlesPath=$3
+fileDir=$(dirname "$file")
+articlesPath=$2
 
-cd $changerPath
+predata=$(sed -e 's/.*!\[\([^(]*\)\](\([^)]*assets[^)]*\)).*/((([[[\1]]]{{{\2}}})))/g' "$file" | grep '(((\[\[\[')
 
-predata=$(sed -e 's/.*!\[\([^(]*\)\](\([^)]*assets[^)]*\)).*/((([[[\1]]]{{{\2}}})))/g' $file | grep '(((\[\[\[')
-
-if [ -z "$predata"]
+if [ -z "$predata" ]
 then
   copied=""
   log="アップロードされた写真はありませんでした"
@@ -18,9 +18,10 @@ else
   beforeVars=$(echo -e "$predata" | sed -e 's/(((\[\[\[\(.*\)\]\]\].*)))/i\1/g')
   beforePathes=$(echo -e "$predata" | sed -e 's/(((.*{{{\(.*\)}}})))/\1/g')
 
-  vars=$(bash bin/var.sh "$beforeVars")
-  pathes=$(bash bin/path.sh "$beforePathes")
+  vars=$(bash var.sh "$beforeVars")
+  pathes=$(bash path.sh "$beforePathes")
 
+  cd $fileDir
 
   n=$(echo "$beforeVars" | wc -l )
 
@@ -34,16 +35,17 @@ else
   do
     beforePath=$(sed "${i}q;d" <<< "$beforePathes")
     var=$(sed "${i}q;d" <<< "$vars")
-    path=$(sed "${i}q;d" <<< "$pathes")
+    path=$(sed -e "${i}q;d" <<< "$pathes")
+    modified_path=$(sed -e 's/[\.\/]*assets\///g' <<< "$path")
 
     imports+="import ${var} from '${path}'\n"
     replaces+=".replace('${beforePath}',${var})\n"
 
-    if test -a $articlesPath/articles/assets/$(sed -e 's/[\.\/]*assets\///g' <<< "$path")
+    if test -a "${articlesPath}/articles/assets/${modified_path}"
     then
       used+="${path}\n"
     else
-      if cp $beforePath $articlesPath/articles/assets/$(sed -e 's/[\.\/]*assets\///g' <<< "$path")
+      if cp "$beforePath" "${articlesPath}/articles/assets/${modified_path}"
       then
         copied+="${path}\n"
       else

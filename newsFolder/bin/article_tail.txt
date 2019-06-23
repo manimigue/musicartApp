@@ -1,7 +1,0 @@
-    return(
-      <MarkdownRender className='article concert' source={source} escapeHtml={false}/>
-    )
-  }
-}
-
-export default ARTICLE;

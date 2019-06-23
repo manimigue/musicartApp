@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#必要なもの : $1=copy_assets.shの$beforeVars
+
 LANG=C
 replace=$(
   sed -e 's/[-\/\:\.[:space:]]//g' -e 's/[^[:alnum:]]//g' <<< "$1"
